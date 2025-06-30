@@ -51,7 +51,7 @@
 
 @font-face {
   font-family: "Uto";
-  src: url("/font/Fontspring-uto-regular.otf") format("opentype");
+  src: url("/font/uto-light.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -202,7 +202,7 @@ span:hover {
 }
 
 .main-color {
-  color: #75dab4 !important;
+  color: #4f2816 !important;
 }
 
 .bg-gray {
@@ -224,7 +224,7 @@ span:hover {
 }
 
 .bg-color {
-  background-color: #75dab4 !important;
+  background-color: #4f2816 !important;
 }
 
 .bg-color .primery-shadow {
@@ -980,7 +980,7 @@ span:hover {
   right: 100%;
   height: 100%;
   width: 100%;
-  background: #75dab4;
+  background: #4f2816;
 }
 
 .pace.pace-inactive {
@@ -1007,7 +1007,7 @@ span:hover {
   left: 0;
   height: 50%;
   width: 100%;
-  background: #252531;
+  background: rgb(254, 250, 250);
   -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   -o-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
@@ -1049,7 +1049,7 @@ span:hover {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #75dab4;
+  color: #4f2816;
   font-family: 'Teko', sans-serif;
   z-index: 9999;
 }
@@ -1176,7 +1176,7 @@ body {
   width: 6px;
   height: 6px;
   z-index: 10000001;
-  background-color: #75dab4;
+  background-color: #4f2816;
   -webkit-transition: width .3s ease-in-out,
     height .3s ease-in-out,
     margin .3s ease-in-out,
@@ -1196,7 +1196,7 @@ body {
   margin-top: -40px;
   width: 80px;
   height: 80px;
-  background-color: #75dab4;
+  background-color: #4f2816;
   opacity: .3;
 }
 
@@ -1205,7 +1205,7 @@ body {
   margin-top: -15px;
   width: 40px;
   height: 40px;
-  border: 1px solid #75dab4;
+  border: 1px solid #4f2816;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 10000000;
@@ -1257,7 +1257,7 @@ body {
   line-height: 44px;
   font-size: 13px;
   font-weight: 900;
-  color: #75dab4;
+  color: #4f2816;
   left: 0;
   top: 0;
   height: 44px;
@@ -1275,7 +1275,7 @@ body {
 }
 
 .progress-wrap svg.progress-circle path {
-  stroke: #75dab4;
+  stroke: #4f2816;
   stroke-width: 4;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1410,7 +1410,7 @@ body {
 }
 
 .sec-head h6 {
-  color: #75dab4;
+  color: #4f2816;
   font-weight: 300;
   font-size: 17px;
   text-transform: uppercase;
@@ -1466,7 +1466,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #75dab4;
+  background: #4f2816;
   position: absolute;
   left: 6px;
   bottom: 5px;
@@ -1585,7 +1585,7 @@ body {
 }
 
 .btn-curve.btn-lit:hover span {
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .btn-curve.btn-lit:after {
@@ -1609,8 +1609,8 @@ body {
 }
 
 .btn-curve.btn-color {
-  background: #75dab4;
-  border-color: #75dab4;
+  background: #4f2816;
+  border-color: #4f2816;
 }
 
 .btn-curve.btn-color:after {
@@ -1622,7 +1622,7 @@ body {
 }
 
 .btn-curve.btn-color:hover span {
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .btn-curve.btn-lg {
@@ -1698,6 +1698,10 @@ body {
   color: #fff;
 }
 
+.nav-scroll .icon-bar {
+  color: #4f2816 !important;
+}
+
 .navbar .navbar-nav .nav-link {
   font-size: 12px;
   font-weight: 500;
@@ -1725,7 +1729,7 @@ body {
 
 .navbar .navbar-nav .dropdown-item:hover {
   background: transparent;
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .navbar .dropdown-menu {
@@ -1765,7 +1769,7 @@ body {
   content: '';
   width: 0px;
   height: 1px;
-  background: #75dab4;
+  background: #4f2816;
   position: absolute;
   left: 10px;
   top: 50%;
@@ -1820,7 +1824,7 @@ body {
   text-align: left;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid #75dab4;
+  border-bottom: 2px solid #4f2816;
 }
 
 .navbar .search .search-form .close {
@@ -2261,7 +2265,7 @@ body {
 }
 
 .slider .parallax-slider .caption .thin {
-  color: #75dab4;
+  color: #4f2816;
   font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
@@ -2280,7 +2284,7 @@ body {
 }
 
 .slider .parallax-slider .caption .thin span {
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .slider .parallax-slider .caption h1 {
@@ -2660,7 +2664,7 @@ header.simpl .caption .btn-curve {
   position: absolute;
   top: 0;
   left: 0;
-  background: #75dab4;
+  background: #4f2816;
 }
 
 .cta__slider-item .caption .top-corn:after,
@@ -2702,7 +2706,7 @@ header.simpl .caption .btn-curve {
 }
 
 .cta__slider-item .caption .thin {
-  color: #75dab4;
+  color: #4f2816;
   font-size: 20px;
   font-weight: 300;
   text-transform: uppercase;
@@ -2788,7 +2792,7 @@ header.simpl .caption .btn-curve {
 }
 
 .freelancer .cont h6 {
-  color: #75dab4;
+  color: #4f2816;
   font-size: 14px;
   font-weight: 300;
   text-transform: uppercase;
@@ -3033,7 +3037,7 @@ header.simpl .caption .btn-curve {
 }
 
 .pages-header .cont .path .active {
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .pages-header .cont .path span {
@@ -3161,7 +3165,7 @@ header.simpl .caption .btn-curve {
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize;
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .works-header .capt .bactxt {
@@ -3534,7 +3538,7 @@ header.simpl .caption .btn-curve {
 /* ====================== [ end showcase ] ====================== */
 /* ====================== [ Start Intro ] ====================== */
 .about .content .co-tit {
-  color: #75dab4;
+  color: #4f2816;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -3629,7 +3633,7 @@ header.simpl .caption .btn-curve {
 }
 
 .about .ftbox ul li .icon {
-  color: #75dab4;
+  color: #4f2816;
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -3689,7 +3693,7 @@ header.simpl .caption .btn-curve {
   text-align: center;
   border-radius: 50%;
   background: #fff;
-  color: #75dab4;
+  color: #4f2816;
   -webkit-box-shadow: 0px 10px 50px rgba(52, 60, 70, 0.05);
   box-shadow: 0px 10px 50px rgba(52, 60, 70, 0.05);
 }
@@ -3721,7 +3725,7 @@ header.simpl .caption .btn-curve {
 .intro-section .htit span {
   font-size: 17px;
   font-weight: 300;
-  color: #75dab4;
+  color: #4f2816;
   margin-right: 5px;
 }
 
@@ -3870,7 +3874,7 @@ header.simpl .caption .btn-curve {
 }
 
 .services .item-box .icon {
-  color: #75dab4;
+  color: #4f2816;
   font-size: 40px;
   margin-bottom: 30px;
 }
@@ -3986,7 +3990,7 @@ header.simpl .caption .btn-curve {
 }
 
 .services .step-item.xcolor {
-  background: #75dab4;
+  background: #4f2816;
   color: #11141b;
 }
 
@@ -3999,7 +4003,7 @@ header.simpl .caption .btn-curve {
 }
 
 .services .step-item .icon {
-  color: #75dab4;
+  color: #4f2816;
   font-size: 40px;
   margin-bottom: 30px;
 }
@@ -4028,7 +4032,7 @@ header.simpl .caption .btn-curve {
 }
 
 .services .item .icon {
-  color: #75dab4;
+  color: #4f2816;
   font-size: 40px;
   margin-bottom: 40px;
 }
@@ -4049,7 +4053,7 @@ header.simpl .caption .btn-curve {
 
 .sipm-feat .item .icon {
   font-size: 30px;
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .sipm-feat .item .text {
@@ -4134,13 +4138,13 @@ header.simpl .caption .btn-curve {
 }
 
 .min-area .content ul.feat li h6 span {
-  color: #75dab4;
+  color: #4f2816;
   width: 30px;
   height: 30px;
   line-height: 30px;
   text-align: center;
   font-size: 13px;
-  border: 1px solid #75dab4;
+  border: 1px solid #4f2816;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -4187,6 +4191,7 @@ header.simpl .caption .btn-curve {
 
 .clients .brands .img {
   position: relative;
+  background: #4f2816;
 }
 
 .clients .brands .img img {
@@ -4294,14 +4299,14 @@ header.simpl .caption .btn-curve {
 }
 
 .portfolio .filtering span.active {
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .portfolio .filtering span:after {
   content: '';
   width: 7px;
   height: 7px;
-  background: #75dab4;
+  background: #4f2816;
   border-radius: 50%;
   position: absolute;
   right: -24px;
@@ -4330,14 +4335,14 @@ header.simpl .caption .btn-curve {
 }
 
 .portfolio .filtering.smplx span.active {
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .portfolio .filtering.smplx span:after {
   content: '';
   width: 7px;
   height: 7px;
-  background: #75dab4;
+  background: #4f2816;
   border-radius: 50%;
   position: absolute;
   right: -24px;
@@ -4657,7 +4662,7 @@ header.simpl .caption .btn-curve {
 }
 
 .work-carousel .content .cont h6 {
-  color: #75dab4;
+  color: #4f2816;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4742,7 +4747,7 @@ header.simpl .caption .btn-curve {
 }
 
 .work-carousel .noraidus .cont h6 {
-  color: #75dab4;
+  color: #4f2816;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4839,7 +4844,7 @@ header.simpl .caption .btn-curve {
   position: absolute;
   content: '';
   width: 75px;
-  border-top: 2px dashed #75dab4;
+  border-top: 2px dashed #4f2816;
   top: 75px;
   right: -35px;
 }
@@ -4968,7 +4973,7 @@ header.simpl .caption .btn-curve {
   width: 0;
   top: 0;
   left: 0;
-  background-color: #75dab4;
+  background-color: #4f2816;
   -webkit-transition: all 1.5s;
   -o-transition: all 1.5s;
   transition: all 1.5s;
@@ -4981,7 +4986,7 @@ header.simpl .caption .btn-curve {
   top: -45px;
   padding: 7px 15px;
   border-radius: 5px;
-  background: #75dab4;
+  background: #4f2816;
   color: #111;
   font-size: 12px;
   font-weight: 600;
@@ -4993,7 +4998,7 @@ header.simpl .caption .btn-curve {
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 8px solid #75dab4;
+  border-top: 8px solid #4f2816;
   position: absolute;
   right: 15px;
   bottom: 14px;
@@ -5020,7 +5025,7 @@ header.simpl .caption .btn-curve {
   top: 50%;
   width: 5px;
   height: 1px;
-  background: #75dab4;
+  background: #4f2816;
 }
 
 /* ====================== [ Start tabs & list ] ====================== */
@@ -5090,7 +5095,7 @@ header.simpl .caption .btn-curve {
 .team .item .info .social a {
   font-size: 13px;
   margin: 0 8px;
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .team .item:hover .info h5,
@@ -5121,7 +5126,7 @@ header.simpl .caption .btn-curve {
 }
 
 .team .slick-dots li.slick-active button {
-  background: #75dab4;
+  background: #4f2816;
 }
 
 .team .slick-dots li button {
@@ -5140,7 +5145,7 @@ header.simpl .caption .btn-curve {
   top: 4px;
   left: 4px;
   line-height: 1;
-  background: #75dab4;
+  background: #4f2816;
   opacity: 1;
 }
 
@@ -5197,7 +5202,7 @@ header.simpl .caption .btn-curve {
   letter-spacing: 2px;
   font-weight: 500;
   margin-bottom: 5px;
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .testimonials .item .info .author-details {
@@ -5243,7 +5248,7 @@ header.simpl .caption .btn-curve {
 
 .testimonials .arrows .next:hover,
 .testimonials .arrows .prev:hover {
-  border-color: #75dab4;
+  border-color: #4f2816;
 }
 
 .testimonials .arrows .prev {
@@ -5416,7 +5421,7 @@ header.simpl .caption .btn-curve {
 
 .block-sec .vid-area .vid-icon .vid span {
   font-size: 30px;
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .block-sec .vid-area .cont {
@@ -5436,13 +5441,13 @@ header.simpl .caption .btn-curve {
 
 .block-sec .testim-box {
   position: relative;
-  background: #75dab4;
+  background: #4f2816;
   padding: 80px 40px;
   margin-bottom: -120px;
 }
 
 .block-sec .testim-box .head-box h6 {
-  color: #0c0f16;
+  color: white;
   font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
@@ -5451,12 +5456,12 @@ header.simpl .caption .btn-curve {
 }
 
 .block-sec .testim-box .head-box h4 {
-  color: #0c0f16;
+  color: white;
   margin-bottom: 40px;
 }
 
 .block-sec .testim-box .item p {
-  color: #333;
+  color: #9d9999;
   font-size: 17px;
   margin-bottom: 30px;
   padding-bottom: 30px;
@@ -5626,7 +5631,7 @@ header.simpl .caption .btn-curve {
 }
 
 .blog-curs .item .cont .info .author {
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .blog-curs .item .cont .info .date {
@@ -5703,7 +5708,7 @@ header.simpl .caption .btn-curve {
 }
 
 .blog-grid .item .cont .info .tag {
-  color: #75dab4;
+  color: #4f2816;
   margin-left: 10px;
 }
 
@@ -5731,7 +5736,7 @@ header.simpl .caption .btn-curve {
   top: -40px;
   right: 15px;
   padding: 5px 15px;
-  background: #75dab4;
+  background: #4f2816;
   color: #222;
   font-size: 12px;
   font-weight: 500;
@@ -5779,7 +5784,7 @@ header.simpl .caption .btn-curve {
 .blog-pg .posts .item .content .tags a {
   font-size: 12px;
   font-weight: 500;
-  color: #75dab4;
+  color: #4f2816;
   padding-right: 20px;
   position: relative;
 }
@@ -5829,8 +5834,8 @@ header.simpl .caption .btn-curve {
 }
 
 .blog-pg .posts .pagination span.active a {
-  border-color: #75dab4;
-  color: #75dab4;
+  border-color: #4f2816;
+  color: #4f2816;
 }
 
 .blog-pg.single .post .main-img .simpleParallax {
@@ -6003,7 +6008,7 @@ header.simpl .caption .btn-curve {
 
 .blog-pg.single .comments-area .item .info h6 span {
   display: block;
-  color: #75dab4;
+  color: #4f2816;
   font-size: 12px;
   font-weight: 400;
   margin-top: 5px;
@@ -6104,7 +6109,7 @@ header.simpl .caption .btn-curve {
 /* ====================== [ End Blog ] ====================== */
 /* ====================== [ Start Call To Action  ] ====================== */
 .call-action .content h6 {
-  color: #75dab4;
+  color: #4f2816;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -6113,7 +6118,7 @@ header.simpl .caption .btn-curve {
 }
 
 .call-action .content h6 span {
-  color: #75dab4;
+  color: #4f2816;
 }
 
 .call-action .content h2 {
@@ -6435,7 +6440,7 @@ header.simpl .caption .btn-curve {
   border: 0;
   padding: 15px 30px;
   background: rgba(255, 255, 255, 0.02);
-  color: #75dab4;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 13px;
@@ -6472,7 +6477,7 @@ header.simpl .caption .btn-curve {
 }
 
 .footer-half .copyrights p a {
-  color: #75dab4;
+  color: #4f2816;
 }
 
 /* ====================== [ End Footer ] ====================== */
@@ -6590,7 +6595,7 @@ header.simpl .caption .btn-curve {
 
   .nav-scroll .navbar-collapse .active,
   .light .navbar-collapse .active {
-    color: #75dab4 !important;
+    color: #4f2816 !important;
   }
 
   .navbar .search {
@@ -6646,7 +6651,7 @@ header.simpl .caption .btn-curve {
   }
 
   .navbar .navbar-nav .nav-link:hover {
-    color: #75dab4;
+    color: #4f2816;
   }
 
   .slider .parallax-slider .caption.dig {
@@ -6919,7 +6924,7 @@ header.simpl .caption .btn-curve {
   }
 
   .navbar .logo {
-    width: 40px;
+    width: 55px;
   }
 
   .hamenu .menu-links .main-menu>li {
