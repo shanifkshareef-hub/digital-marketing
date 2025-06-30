@@ -5487,7 +5487,7 @@ header.simpl .caption .btn-curve {
 }
 
 .block-sec .testim-box .item .info .cont .author-name {
-  color: #0c0f16;
+  color: white;
   font-size: 16px;
   margin-bottom: 5px;
   letter-spacing: 2px;
@@ -5495,7 +5495,7 @@ header.simpl .caption .btn-curve {
 }
 
 .block-sec .testim-box .item .info .cont .author-details {
-  color: #0c0f16;
+  color: white;
   font-size: 13px;
   font-weight: 300;
   text-transform: uppercase;
