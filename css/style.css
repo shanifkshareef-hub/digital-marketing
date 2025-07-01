@@ -6691,7 +6691,8 @@ header.simpl .caption .btn-curve {
   }
 
   .video-bg {
-    object-fit: fill;
+    object-fit: cover;
+    height: 100%;
   }
 
   .circle-slide .swiper-slide .bg-img {
