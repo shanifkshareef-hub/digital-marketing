@@ -6690,6 +6690,10 @@ header.simpl .caption .btn-curve {
     margin-left: 20px;
   }
 
+  .video-bg {
+    object-fit: fill;
+  }
+
   .circle-slide .swiper-slide .bg-img {
     opacity: 0;
     visibility: hidden;
