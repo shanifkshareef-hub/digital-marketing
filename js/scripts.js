@@ -32,8 +32,8 @@ $(function () {
 
         } else {
 
-            navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/logo-light.png');
+            // navbar.removeClass("nav-scroll");
+            // logo.attr('src', 'img/logo-light.png');
         }
     });
 

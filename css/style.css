@@ -262,6 +262,10 @@ span:hover {
   padding: 120px 0;
 }
 
+.services-padding {
+  padding: 40px 0 120px 0;
+}
+
 .section-ptb {
   padding: 80px 0;
 }
@@ -1412,7 +1416,7 @@ body {
 .sec-head h6 {
   color: #4f2816;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 14px;
   margin-bottom: 5px;
@@ -1435,8 +1439,8 @@ body {
   font-size: 10vw;
   font-weight: 700;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
-  opacity: .3;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.06);
+  /* opacity: .3; */
 }
 
 .sec-head.tr-head {
@@ -1838,7 +1842,7 @@ body {
 }
 
 .navbar .logo {
-  width: 75px;
+  width: 100px;
 }
 
 .nav-scroll {
@@ -3977,7 +3981,7 @@ header.simpl .caption .btn-curve {
   text-align: center;
   padding: 60px;
   margin: 60px auto;
-  background: #151921;
+  background: #ffffff;
   position: relative;
 }
 
@@ -3991,15 +3995,15 @@ header.simpl .caption .btn-curve {
 
 .services .step-item.xcolor {
   background: #4f2816;
-  color: #11141b;
+  color: #f7f8fa;
 }
 
 .services .step-item.xcolor .icon {
-  color: #11141b !important;
+  color: #ffffff !important;
 }
 
 .services .step-item.xcolor p {
-  color: #333;
+  color: #817f7f;
 }
 
 .services .step-item .icon {
@@ -6929,7 +6933,7 @@ header.simpl .caption .btn-curve {
   }
 
   .navbar .logo {
-    width: 55px;
+    width: 70px;
   }
 
   .hamenu .menu-links .main-menu>li {
