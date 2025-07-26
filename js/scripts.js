@@ -531,13 +531,13 @@ $(function () {
 });
 
 
-    /* ===============================  Wow Animation  =============================== */
+/* ===============================  Wow Animation  =============================== */
 
-    wow = new WOW({
-        animateClass: 'animated',
-        offset: 100
-    });
-    wow.init();
+wow = new WOW({
+    animateClass: 'animated',
+    offset: 100
+});
+wow.init();
 
 
 // === window When Loading === //
@@ -731,7 +731,7 @@ $(function () {
     mousecursor();
 });
 
- /* ===============================  fixed-slider  =============================== */
+/* ===============================  fixed-slider  =============================== */
 
 $(function () {
 
