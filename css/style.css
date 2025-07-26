@@ -2205,6 +2205,12 @@ body {
 
 /* ====================== [ End navbar ] ====================== */
 /* ====================== [ Start Slider ] ====================== */
+.video-bg {
+  transform: translate(0%, 10%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .slider {
   position: relative;
 }
