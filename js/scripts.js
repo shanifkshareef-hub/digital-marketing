@@ -121,41 +121,41 @@ $(function () {
     /* ===============================  Swiper slider  =============================== */
 
 
-    // var parallaxSlider;
-    // var parallaxSliderOptions = {
-    //     speed: 1000,
-    //     autoplay: true,
-    //     parallax: true,
-    //     loop: true,
+    var parallaxSlider;
+    var parallaxSliderOptions = {
+        speed: 1000,
+        autoplay: true,
+        parallax: true,
+        loop: true,
 
-    //     on: {
-    //         init: function () {
-    //             var swiper = this;
-    //             for (var i = 0; i < swiper.slides.length; i++) {
-    //                 $(swiper.slides[i])
-    //                     .find('.bg-img')
-    //                     .attr({
-    //                         'data-swiper-parallax': 0.75 * swiper.width
-    //                     });
-    //             }
-    //         },
-    //         resize: function () {
-    //             this.update();
-    //         }
-    //     },
+        on: {
+            init: function () {
+                var swiper = this;
+                for (var i = 0; i < swiper.slides.length; i++) {
+                    $(swiper.slides[i])
+                        .find('.bg-img')
+                        .attr({
+                            'data-swiper-parallax': 0.75 * swiper.width
+                        });
+                }
+            },
+            resize: function () {
+                this.update();
+            }
+        },
 
-    //     pagination: {
-    //         el: '.slider-prlx .parallax-slider .swiper-pagination',
-    //         type: 'fraction',
-    //         clickable: true
-    //     },
+        pagination: {
+            el: '.slider-prlx .parallax-slider .swiper-pagination',
+            type: 'fraction',
+            clickable: true
+        },
 
-    //     navigation: {
-    //         nextEl: '.slider-prlx .parallax-slider .next-ctrl',
-    //         prevEl: '.slider-prlx .parallax-slider .prev-ctrl'
-    //     }
-    // };
-    // parallaxSlider = new Swiper('.slider-prlx .parallax-slider', parallaxSliderOptions);
+        navigation: {
+            nextEl: '.slider-prlx .parallax-slider .next-ctrl',
+            prevEl: '.slider-prlx .parallax-slider .prev-ctrl'
+        }
+    };
+    parallaxSlider = new Swiper('.slider-prlx .parallax-slider', parallaxSliderOptions);
 
 
     var parallaxShowCase;

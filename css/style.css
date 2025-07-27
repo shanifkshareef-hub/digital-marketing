@@ -3197,6 +3197,11 @@ header.simpl .caption .btn-curve {
 }
 
 /* ====================== [ End Slider ] ====================== */
+
+.about-text {
+  color: #524e4e;
+}
+
 /* ====================== [ Start showcase ] ====================== */
 .showcase-full .parallax-slider .swiper-slide .bg-img {
   background-position: center center;
