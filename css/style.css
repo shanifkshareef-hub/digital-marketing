@@ -3970,6 +3970,11 @@ header.simpl .caption .btn-curve {
 
 }
 
+.png-image-icon {
+  width: 45px;
+  margin-bottom: 30px;
+}
+
 .services .mas-item h6 {
   font-weight: 600;
   font-size: 16px;
