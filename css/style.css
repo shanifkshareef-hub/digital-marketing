@@ -6703,6 +6703,7 @@ header.simpl .caption .btn-curve {
   .video-bg {
     object-fit: cover;
     height: 100%;
+    transform: none;
   }
 
   .circle-slide .swiper-slide .bg-img {
